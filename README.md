@@ -7,6 +7,8 @@ Texture files will be loaded automatically provided they have the same base name
 
 Pressing the space bar will toggle the animation.  Pressing the V or v key will toggle mesh or textured mode.  Pressing ESC or Q will quit the program.
 
+There is a Visual Studio 2019 Solution file included.  For coders too lazy to build libjpeg and freeglut, I have included those dependecies as zip files in the Dependencies folder of this repo.
+
 ![image](https://user-images.githubusercontent.com/5926287/153332936-1a1984c5-be7d-4f55-9a1a-179d2a25e5f8.png)
 
 ![image](https://user-images.githubusercontent.com/5926287/153333040-405954e5-2638-4f49-b0e3-61c370dea204.png)
