@@ -3,7 +3,7 @@
 
 This code was originally written by Mark M. Lanning in the late 90's to view 3DS files.  It originally had dependencies on GLAUX, libjpeg, GLUT32 and GLU.  I have removed most of these dependencies because they have long since been deprecated.  The only remaining dependencies are now freeglut and libjpeg.  It was also a 32-bit app and I have compiled it for 64-bit versions of Windows.  This code is highly portable and should compile on Linux and MacOS without issues provided the programmer links against MacOS or Linux versions of freeglut and libjpeg.  This is a command line app which takes a single argument.  To view a 3DS file, type:  3dsviewer followed by the name of the 3DS model that you want to view.  I.e. 3dsviewer my_file.3ds
 
-Texture files will be loaded automatically provided they have the same base name as the model.  Both BMP and JPEG files are suppoted.  I have included skull.3ds and skull.jpg as examples.  The viewer will search for a JPEG or BMP texture file automatically upon loading a model, so there's no need to specify the texture file name.  Alternatively, just drag-and-drop your 3DS file onto the 3DSViewer.exe file.
+Texture files will be loaded automatically provided they have the same base name as the model.  Both BMP and JPEG files are supported.  I have included skull.3ds and skull.jpg as examples.  The viewer will search for a JPEG or BMP texture file automatically upon loading a model, so there's no need to specify the texture file name.  Alternatively, just drag-and-drop your 3DS file onto the 3DSViewer.exe file.
 
 Pressing the space bar will toggle the animation.  Pressing the V or v key will toggle mesh or textured mode.  Pressing ESC or Q will quit the program.
 
